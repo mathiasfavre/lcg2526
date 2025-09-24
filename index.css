@@ -1,0 +1,81 @@
+/* Stile generale */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Neue Haas Grotesk, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #f5f3f0; /* grigio chiaro caldo */
+  color: #0a7f80; /* verdeacqua scuro */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: transparent;
+  border-bottom: solid 2px #0a7f80;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #0a7f80;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #0a7f80;
+  color: #f5f3f0;
+}
+
+/* Contenuto principale */
+.content {
+  flex: 1;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.content p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: transparent;
+  border-top: 2px solid #0a7f80;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-center {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.footer-right {
+  text-align: right;
+}
